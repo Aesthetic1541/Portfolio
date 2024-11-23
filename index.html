@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADITYA PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            height: 80px;
+            background-color: #001a15;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: justify;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #0d7ac2;
+        }
+
+        nav ul li a:hover {
+            color: lightslategray;
+            font-size: 1.06rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgba(76, 0, 255, 0.377);
+            height: 1.3px;
+            margin: 60px 10%;
+        }
+
+        .left {
+            font-size: 3rem;
+            color: #0d7ac2;
+        }
+
+        .firstsection {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+            text-align: center;
+        }
+
+        .firstsection>div {
+            width: 80%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+            margin: 30px;
+        }
+
+        .rightsection img {
+            width: 100%;
+            max-width: 400px;
+            margin: 55px 0;
+        }
+
+        .purple {
+            color: #b3cde0;
+        }
+
+        .text-gray {
+            color: #b3cde0;
+        }
+
+        #element {
+            color: #b3cde0;
+        }
+
+        .SecondSection {
+            max-width: 90%;
+            margin: auto;
+            height: auto;
+        }
+
+        .SecondSection h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .SecondSection .box {
+            background: rgba(76, 0, 255, 0.377);
+            width: 100%;
+            height: auto;
+            margin: 56px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .SecondSection .vertical {
+            height: auto;
+            width: 30%;
+            background-color: #001a15;
+            margin: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .image-top {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+
+        .vertical-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .vertical-desc {
+            font-size: 0.9rem;
+            color: aliceblue;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #001a15;
+            color: #ffffff;
+        }
+
+        body {
+            background-color: #000205;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @media (min-width: 768px) {
+            .firstsection {
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: left;
+            }
+
+            .SecondSection .vertical {
+                width: 18%;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            nav ul li {
+                margin: 0 23px;
+            }
+
+            .SecondSection {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">ADITYA's PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Greetings of the day!! THIS IS <span class="purple">ADITYA SINGH KHAGI.</span>
+                <div>
+                    I am currently learning web development.
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="1.jpg" alt="developer">
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection">
+            <span class="text-gray">My learnings so far!!!</span>
+            <h1>Learning Experiences:</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        LEARNING HTML (2024-TILL)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse in asperiores est ut mollitia
+                        excepturi soluta facilis architecto illo possimus error, aut nesciunt beatae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="3.jpeg" alt="">
+                    <div class="vertical-title">
+                        LEARNING CSS & JAVA (2024-TILL)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse in asperiores est ut mollitia
+                        excepturi soluta facilis architecto illo possimus error, aut nesciunt beatae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="2.jpg" alt="">
+                    <div class="vertical-title">
+                        C LANGUAGE (2024-TILL)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse in asperiores est ut mollitia
+                        excepturi soluta facilis architecto illo possimus error, aut nesciunt beatae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="7.jpeg" alt="">
+                    <div class="vertical-title">
+                        CYBER SECURITY LINKEDIN LEARNING(2024-TILL)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse in asperiores est ut mollitia
+                        excepturi soluta facilis architecto illo possimus error, aut nesciunt beatae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="6.webp" alt="">
+                    <div class="vertical-title">
+                        CYBER SECURITY DSCII (2024-TILL)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse in asperiores est ut mollitia
+                        excepturi soluta facilis architecto illo possimus error, aut nesciunt beatae.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Aditya's portfolio</h3>
+            </div>
+            <div class="footer-second">
+            </div>
+            <div class="footer-third">
+            </div>
+            <div class="footer-fourth">
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['WEB DEVELOPER', 'DATA SCIENCE STUDENT', 'B.TECH. STUDENT'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
